@@ -1,63 +1,162 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Model Canvas</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juan Cristian - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="section blue">
-            <div class="box">
-                <span>parcerias principais</span>
-                <div class="icon handshake"></div>
+      <!-- Header/Hero Section -->
+      <header class="hero">
+        <div class="hero-content">
+          <h1 class="animate-slide-down">Juan Cristian Kunz de Borba</h1>
+          <p class="subtitle animate-slide-up">Developer Web/Developer Mobile</p>
+          
+          <div class="contact-info animate-fade-in">
+            <a href="mailto:juanborba033@gmail.com" class="contact-item">
+              <i class="icon">✉️</i>
+              <span>juanborba033@gmail.com</span>
+            </a>
+            <a href="tel:+5547992478107" class="contact-item">
+              <i class="icon">📱</i>
+              <span>(47) 99247-8107</span>
+            </a>
+            <div class="contact-item">
+              <i class="icon">📍</i>
+              <span>Blumenau, SC</span>
             </div>
-            <div class="box">
-                <span>atividades principais</span>
-                <div class="icon desk"></div>
-            </div>
-            <div class="box">
-                <span>recursos principais</span>
-                <div class="icon tools"></div>
-            </div>
+          </div>
         </div>
-        
-        <div class="section red">
-            <div class="box">
-                <span>proposta de valor</span>
-                <div class="icon gift"></div>
+      </header>
+
+      <!-- Main Content -->
+      <main>
+        <!-- About Section -->
+        <section class="section animate-fade-in">
+          <h2 class="section-title">Sobre</h2>
+          <p class="about-text">
+            Me chamo Juan, tenho 18 anos e resido em Blumenau. Sou bem dedicado no que eu faço.
+            Sou bem extrovertido e sou fascinado por tecnologia.
+          </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section animate-fade-in">
+          <h2 class="section-title">Habilidades Técnicas</h2>
+          
+          <div class="skills-grid">
+            <!-- Frontend -->
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Angular</li>
+                <li>Ionic</li>
+                <li>Cordova</li>
+                <li>Flutter</li>
+                <li>Dart</li>
+              </ul>
             </div>
+
+            <!-- Backend -->
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>MySQL</li>
+                <li>NoSQL</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-card">
+              <h3>Ferramentas & Outros</h3>
+              <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Microsoft Office</li>
+                <li>Desenvolvimento Mobile</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section animate-fade-in">
+          <h2 class="section-title">Experiência Profissional</h2>
+          
+          <div class="experience-card">
+            <h3>TosaTech</h3>
+            <p class="date">07/2024 até 01/2024</p>
+            <p class="description">
+              Atuei como auxiliar administrativo, manutenção de máquinas de banho e tosa,
+              emissão de notas fiscais, organizador de planilha financeira, aberturas de OS.
+            </p>
+          </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section animate-fade-in">
+          <h2 class="section-title">Formação Acadêmica</h2>
+          
+          <div class="education-card">
+            <h3>Ensino Médio</h3>
+            <p class="school">E.E.B Pedro II - Blumenau, SC</p>
+            <p class="date">01/2022 - 12/2024</p>
+          </div>
+
+          <div class="courses">
+            <p>• SESC - Curso de Inglês básico</p>
+            <p>• Informática Básica - Conhecimento em Microsoft Office</p>
+            <p>• VMF Escola de Informática - Pacote Office</p>
+            <p>• Curso de Desenvolvimento de app e web | Conhecimento em: Html, JavaScript, Angular, Cordova e ionic</p>
+            <p>• No momento cursando Flutter no Entra21</p>
+          </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="section animate-fade-in">
+          <h2 class="section-title">Idiomas</h2>
+          
+          <div class="languages-grid">
+            <div class="language-card">
+              <h3>Português</h3>
+              <p>Língua materna</p>
+            </div>
+            
+            <div class="language-card">
+              <h3>Inglês</h3>
+              <p>Básico (A2)</p>
+            </div>
+            
+            <div class="language-card">
+              <h3>Espanhol</h3>
+              <p>Iniciante (A1)</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer animate-fade-in">
+        <div class="social-links">
+          <a href="https://github.com/JuanCristian08" class="social-link">
+            <i class="icon">👨‍💻</i>
+          </a>
+          <a href="https://www.linkedin.com/in/juan-de-borba-9855882a0/" class="social-link">
+            <i class="icon">💼</i>
+          </a>
+          <a href="mailto:juanborba033@gmail.com" class="social-link">
+            <i class="icon">✉️</i>
+          </a>
         </div>
-        
-        <div class="section green">
-            <div class="box">
-                <span>relacionamento com clientes</span>
-                <div class="icon heart"></div>
-            </div>
-            <div class="box">
-                <span>canais</span>
-                <div class="icon truck"></div>
-            </div>
-        </div>
-        
-        <div class="section mint">
-            <div class="box">
-                <span>segmento de clientes</span>
-                <div class="icon people"></div>
-            </div>
-        </div>
-        
-        <div class="section yellow">
-            <div class="box">
-                <span>estrutura de custos</span>
-                <div class="icon checklist"></div>
-            </div>
-            <div class="box">
-                <span>fontes de receita</span>
-                <div class="icon money"></div>
-            </div>
-        </div>
+        <p>© 2025 Juan Cristian Kunz de Borba. Todos os direitos reservados.</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
